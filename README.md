@@ -25,7 +25,7 @@ A real-time web application for tracking stock and cryptocurrency prices with hi
 
 1. Clone the repository:
 ```bash
-git clone https://github.com/your-username/groupb-stock-crypto-tracker.git
+git clone https://github.com/pascwey/groupb-stock-crypto-tracker.git
 cd groupb-stock-crypto-tracker
 ```
 
@@ -61,33 +61,6 @@ groupb-stock-crypto-tracker/
 - **Icons**: Bootstrap Icons 1.11.0
 
 ## 👥 Team Members & Contributions
-
-### Pascal Cuni
-**Responsibilities:**
-- **HTML Structure & Navigation** (`index.html` lines 3-29)
-  - HTML head section with meta tags and CDN links
-  - Bootstrap navigation bar
-  - Project setup and structure
-  
-- **UI Initialization & Event Handlers** (`script.js` lines 1-28, `styles.css` lines 70-91)
-  - DOM element selection and initialization
-  - Search button click event listener
-  - Enter key press handler for search input
-  - Home button click handler
-  - Main search handler function (`handleSearch`)
-  - CSS for navbar and chart container styling
-
-- **Error Handling & Utilities** (`script.js` lines 347-364, `styles.css` lines 131-193)
-  - Error display function (`showError`)
-  - Error hiding function (`hideError`)
-  - Results hiding function (`hideResults`)
-  - Home button reset functionality
-  - Form focus styles and animations
-  - Alert styling and animations
-  - Footer styling
-  - Mobile responsiveness
-
----
 
 ### Agon Shehu
 **Responsibilities:**
@@ -162,6 +135,33 @@ groupb-stock-crypto-tracker/
 - **Error & Footer HTML** (`index.html` lines 122-141)
   - Error message display area
   - Footer section
+
+---
+
+### Pascal Cuni
+**Responsibilities:**
+- **HTML Structure & Navigation** (`index.html` lines 3-29)
+  - HTML head section with meta tags and CDN links
+  - Bootstrap navigation bar
+  - Project setup and structure
+  
+- **UI Initialization & Event Handlers** (`script.js` lines 1-28, `styles.css` lines 70-91)
+  - DOM element selection and initialization
+  - Search button click event listener
+  - Enter key press handler for search input
+  - Home button click handler
+  - Main search handler function (`handleSearch`)
+  - CSS for navbar and chart container styling
+
+- **Error Handling & Utilities** (`script.js` lines 347-364, `styles.css` lines 131-193)
+  - Error display function (`showError`)
+  - Error hiding function (`hideError`)
+  - Results hiding function (`hideResults`)
+  - Home button reset functionality
+  - Form focus styles and animations
+  - Alert styling and animations
+  - Footer styling
+  - Mobile responsiveness
 
 ---
 
