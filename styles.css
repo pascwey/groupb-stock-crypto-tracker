@@ -1,0 +1,193 @@
+/* BEGIN Member 1. */
+body {
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+    background-attachment: fixed;
+}
+
+@keyframes fadeIn {
+    from {
+        opacity: 0;
+        transform: translateY(10px);
+    }
+    to {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
+
+.container {
+    flex: 1;
+}
+
+.card {
+    border: none;
+    border-radius: 10px;
+    transition: transform 0.2s ease, box-shadow 0.2s ease;
+}
+
+.card:hover {
+    transform: translateY(-3px);
+    box-shadow: 0 8px 20px rgba(0, 0, 0, 0.15) !important;
+}
+/* END Member 1. */
+
+/* BEGIN Member 2. */
+.price-card {
+    background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+    color: white;
+}
+
+.price-card .card-title {
+    color: white;
+    font-size: 1.75rem;
+    font-weight: bold;
+}
+
+.price-box {
+    background: rgba(255, 255, 255, 0.15);
+    backdrop-filter: blur(10px);
+    border: 1px solid rgba(255, 255, 255, 0.2);
+    transition: all 0.2s ease;
+}
+
+.price-box:hover {
+    background: rgba(255, 255, 255, 0.2);
+    transform: scale(1.02);
+}
+
+.price-box h5 {
+    color: rgba(255, 255, 255, 0.9) !important;
+}
+
+.price-box .h2 {
+    color: white;
+}
+/* END Member 2. */
+
+/* BEGIN Member 3. */
+.navbar {
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.navbar-brand {
+    font-weight: bold;
+    font-size: 1.5rem;
+}
+
+.chart-container {
+    position: relative;
+    height: 400px;
+    padding: 20px;
+    background: white;
+    border-radius: 10px;
+}
+
+#priceChart {
+    max-height: 100%;
+}
+/* END Member 3. */
+
+/* BEGIN Member 4. */
+.table-responsive {
+    max-height: 400px;
+    overflow-y: auto;
+    border-radius: 10px;
+}
+
+.table thead {
+    background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+    color: white;
+}
+
+.table tbody tr {
+    transition: background-color 0.2s ease;
+}
+
+.table tbody tr:hover {
+    background-color: rgba(102, 126, 234, 0.1);
+}
+
+.btn-primary {
+    background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+    border: none;
+    transition: all 0.2s ease;
+}
+
+.btn-primary:hover {
+    background: linear-gradient(135deg, #764ba2 0%, #667eea 100%);
+    transform: translateY(-1px);
+    box-shadow: 0 4px 12px rgba(102, 126, 234, 0.4);
+}
+
+.btn-primary:disabled {
+    opacity: 0.7;
+    cursor: not-allowed;
+}
+/* END Member 4. */
+
+/* BEGIN Member 5. */
+.form-select:focus, .form-control:focus {
+    border-color: #667eea;
+    box-shadow: 0 0 0 0.25rem rgba(102, 126, 234, 0.25);
+}
+
+.alert {
+    border-radius: 10px;
+    border: none;
+    animation: slideIn 0.3s ease;
+}
+
+@keyframes slideIn {
+    from {
+        opacity: 0;
+        transform: translateY(-10px);
+    }
+    to {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
+
+footer {
+    margin-top: auto;
+    box-shadow: 0 -2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.text-success {
+    color: #28a745 !important;
+    font-weight: bold;
+}
+
+.text-danger {
+    color: #dc3545 !important;
+    font-weight: bold;
+}
+
+.spinner-border-sm {
+    width: 1rem;
+    height: 1rem;
+    border-width: 0.15em;
+}
+
+@media (max-width: 768px) {
+    .h2 {
+        font-size: 1.5rem;
+    }
+    
+    .card-body h3 {
+        font-size: 1.25rem;
+    }
+    
+    .price-box {
+        margin-bottom: 1rem;
+    }
+    
+    .chart-container {
+        height: 300px;
+        padding: 10px;
+    }
+}
+/* END Member 5. */
