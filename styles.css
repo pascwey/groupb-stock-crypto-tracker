@@ -1,9 +1,9 @@
-/* BEGIN Member 1. */
+/* BEGIN Agon Shehu. */
 body {
     min-height: 100vh;
     display: flex;
     flex-direction: column;
-    background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+    background: linear-gradient(135deg, #667eea, #764ba2);
     background-attachment: fixed;
 }
 
@@ -32,11 +32,11 @@ body {
     transform: translateY(-3px);
     box-shadow: 0 8px 20px rgba(0, 0, 0, 0.15) !important;
 }
-/* END Member 1. */
+/* END Agon Shehu. */
 
-/* BEGIN Member 2. */
+/* BEGIN Bardhyl Dervisholli. */
 .price-card {
-    background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+    background: linear-gradient(135deg, #667eea, #764ba2);
     color: white;
 }
 
@@ -65,9 +65,9 @@ body {
 .price-box .h2 {
     color: white;
 }
-/* END Member 2. */
+/* END Bardhyl Dervisholli. */
 
-/* BEGIN Member 3. */
+/* BEGIN Pascal Cuni. */
 .navbar {
     box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
 }
@@ -88,9 +88,9 @@ body {
 #priceChart {
     max-height: 100%;
 }
-/* END Member 3. */
+/* END Pascal Cuni. */
 
-/* BEGIN Member 4. */
+/* BEGIN Dea Gjoshi. */
 .table-responsive {
     max-height: 400px;
     overflow-y: auto;
@@ -98,7 +98,7 @@ body {
 }
 
 .table thead {
-    background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+    background: linear-gradient(135deg, #667eea, #764ba2);
     color: white;
 }
 
@@ -111,13 +111,13 @@ body {
 }
 
 .btn-primary {
-    background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+    background: linear-gradient(135deg, #667eea, #764ba2);
     border: none;
     transition: all 0.2s ease;
 }
 
 .btn-primary:hover {
-    background: linear-gradient(135deg, #764ba2 0%, #667eea 100%);
+    background: linear-gradient(135deg, #764ba2, #667eea);
     transform: translateY(-1px);
     box-shadow: 0 4px 12px rgba(102, 126, 234, 0.4);
 }
@@ -126,9 +126,9 @@ body {
     opacity: 0.7;
     cursor: not-allowed;
 }
-/* END Member 4. */
+/* END Dea Gjoshi. */
 
-/* BEGIN Member 5. */
+/* BEGIN Pascal Cuni. */
 .form-select:focus, .form-control:focus {
     border-color: #667eea;
     box-shadow: 0 0 0 0.25rem rgba(102, 126, 234, 0.25);
@@ -190,4 +190,4 @@ footer {
         padding: 10px;
     }
 }
-/* END Member 5. */
+/* END Pascal Cuni. */
