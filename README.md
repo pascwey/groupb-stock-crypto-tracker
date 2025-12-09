@@ -5,6 +5,10 @@ A real-time web application for tracking stock and cryptocurrency prices with hi
 ![Project Status](https://img.shields.io/badge/status-complete-success)
 ![Languages](https://img.shields.io/badge/languages-JavaScript%20%7C%20HTML%20%7C%20CSS-blue)
 
+## 🌐 Live Demo
+
+**Try it now:** [https://pascwey.github.io/groupb-stock-crypto-tracker/](https://pascwey.github.io/groupb-stock-crypto-tracker/)
+
 ## 🎯 Features
 
 - **Real-time Price Tracking**: Get current prices for stocks and cryptocurrencies
@@ -232,7 +236,12 @@ This project is created for educational purposes as part of a Client Programming
 
 ## 📞 Contact
 
-For questions or issues, please contact any team member or open an issue on GitHub.
+For questions or issues, please contact any team member or open an issue on [GitHub](https://github.com/pascwey/groupb-stock-crypto-tracker/issues).
+
+## 🔗 Links
+
+- **Live Site**: [https://pascwey.github.io/groupb-stock-crypto-tracker/](https://pascwey.github.io/groupb-stock-crypto-tracker/)
+- **Repository**: [https://github.com/pascwey/groupb-stock-crypto-tracker](https://github.com/pascwey/groupb-stock-crypto-tracker)
 
 ---
 
