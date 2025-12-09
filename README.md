@@ -15,8 +15,9 @@ A real-time web application for tracking stock and cryptocurrency prices with hi
 - **Historical Data**: View 7-day price history with interactive charts
 - **Visual Charts**: Beautiful Chart.js line graphs showing price trends
 - **Responsive Design**: Mobile-friendly interface with Bootstrap 5
-- **Error Handling**: Comprehensive error messages and validation
+- **Error Handling**: Comprehensive error messages and validation with separate handling for historical data errors
 - **Modern UI**: Gradient backgrounds, smooth animations, and intuitive design
+- **Home Button**: Reset functionality to clear results and return to top
 
 ## 🚀 Getting Started
 
@@ -44,10 +45,13 @@ cd groupb-stock-crypto-tracker
 ```
 groupb-stock-crypto-tracker/
 │
-├── index.html          # Main HTML structure
-├── script.js           # JavaScript functionality
-├── styles.css          # CSS styling
-└── README.md          # Project documentation
+├── index.html              # Main HTML structure
+├── script.js               # JavaScript functionality
+├── styles.css              # CSS styling
+├── README.md              # Project documentation
+└── .github/
+    └── workflows/
+        └── deploy.yml     # GitHub Pages deployment workflow
 ```
 
 ## 🏗️ Architecture
@@ -68,13 +72,13 @@ groupb-stock-crypto-tracker/
 
 ### Agon Shehu
 **Responsibilities:**
-- **Stock Data Fetching** (`script.js` lines 30-102)
+- **Stock Data Fetching** (`script.js` lines 45-117)
   - Yahoo Finance API integration
   - Proxy handling for CORS
   - Price calculation and validation
-  - 24-hour change calculation
+  - 24h change calculation
 
-- **Historical Chart Display** (`script.js` lines 261-338)
+- **Historical Chart Display** (`script.js` lines 279-356)
   - Chart.js integration and configuration
   - Historical data visualization
   - Chart styling and customization
@@ -88,7 +92,7 @@ groupb-stock-crypto-tracker/
 
 ### Bardhyl Dervisholli
 **Responsibilities:**
-- **Cryptocurrency Data Fetching** (`script.js` lines 104-144)
+- **Cryptocurrency Data Fetching** (`script.js` lines 119-160)
   - CoinGecko API integration
   - Symbol mapping (BTC → bitcoin, etc.)
   - Fallback logic for symbol matching
@@ -103,12 +107,12 @@ groupb-stock-crypto-tracker/
 
 ### Dea Gjoshi
 **Responsibilities:**
-- **Price Display Function** (`script.js` lines 162-175)
+- **Price Display Function** (`script.js` lines 162-177)
   - Formatting and displaying current price
   - Change percentage calculation
   - Color coding (green/red) for gains/losses
 
-- **Historical Data Fetching** (`script.js` lines 177-215, 217-259)
+- **Historical Data Fetching** (`script.js` lines 179-277)
   - Stock historical data fetching
   - Cryptocurrency historical data fetching
   - Data processing and date formatting
@@ -123,22 +127,16 @@ groupb-stock-crypto-tracker/
 
 ### Erin Kupina
 **Responsibilities:**
-- **Search Interface HTML** (`index.html` lines 32-59)
+- **All HTML Content** (`index.html` lines 32-139)
   - Search form layout
   - Asset type selector
   - Input field and search button
-
-- **Price Display Section HTML** (`index.html` lines 62-91)
   - Current price display cards
-  - Price, change, and percentage sections
-
-- **Historical Section HTML** (`index.html` lines 94-119)
-  - Chart container
-  - Historical data table structure
-
-- **Error & Footer HTML** (`index.html` lines 122-141)
+  - 24h price change and percentage sections
+  - Historical section with chart container and data table
   - Error message display area
-  - Footer section
+  - Footer with group member names
+  - Bootstrap and script includes
 
 ---
 
@@ -149,7 +147,7 @@ groupb-stock-crypto-tracker/
   - Bootstrap navigation bar
   - Project setup and structure
   
-- **UI Initialization & Event Handlers** (`script.js` lines 1-28, `styles.css` lines 70-91)
+- **UI Initialization & Event Handlers** (`script.js` lines 1-43, `styles.css` lines 70-91)
   - DOM element selection and initialization
   - Search button click event listener
   - Enter key press handler for search input
@@ -157,7 +155,7 @@ groupb-stock-crypto-tracker/
   - Main search handler function (`handleSearch`)
   - CSS for navbar and chart container styling
 
-- **Error Handling & Utilities** (`script.js` lines 347-364, `styles.css` lines 131-193)
+- **Error Handling & Utilities** (`script.js` lines 358-378, `styles.css` lines 131-193)
   - Error display function (`showError`)
   - Error hiding function (`hideError`)
   - Results hiding function (`hideResults`)
